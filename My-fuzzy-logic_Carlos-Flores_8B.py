@@ -9,8 +9,7 @@ m = 0
 while z == 1:
     print("What is the amount of water(L) in the lake?")
     print("Current: Full", f, " Empty", e )
-    i = input(">")
-    i = int(i)
+    i = int(input(">"))
     if i >= f:
         f = i
     elif i <= e:
